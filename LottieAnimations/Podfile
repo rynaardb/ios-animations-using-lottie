@@ -1,0 +1,3 @@
+target 'LottieAnimations' do
+  pod 'lottie-ios'
+end

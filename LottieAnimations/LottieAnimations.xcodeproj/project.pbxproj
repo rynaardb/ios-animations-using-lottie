@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842723FBBB71D330ED1A8EB5 /* libPods-LottieAnimations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB900A5FC9D890DB2FA5C27F /* libPods-LottieAnimations.a */; };
 		C4F6599222305B4A00C5C5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6599122305B4A00C5C5E4 /* AppDelegate.swift */; };
 		C4F6599422305B4A00C5C5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6599322305B4A00C5C5E4 /* ViewController.swift */; };
 		C4F6599722305B4A00C5C5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F6599522305B4A00C5C5E4 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8789858217C00CA0AD9FFD98 /* Pods-LottieAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimations.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimations/Pods-LottieAnimations.release.xcconfig"; sourceTree = "<group>"; };
+		AB900A5FC9D890DB2FA5C27F /* libPods-LottieAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LottieAnimations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6598E22305B4A00C5C5E4 /* LottieAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6599122305B4A00C5C5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F6599322305B4A00C5C5E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C4F6599822305B4D00C5C5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F6599B22305B4D00C5C5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4F6599D22305B4D00C5C5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF6AC8617070FE0B88FD928 /* Pods-LottieAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimations/Pods-LottieAnimations.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842723FBBB71D330ED1A8EB5 /* libPods-LottieAnimations.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A6572F8B0E59A9716E8EAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDF6AC8617070FE0B88FD928 /* Pods-LottieAnimations.debug.xcconfig */,
+				8789858217C00CA0AD9FFD98 /* Pods-LottieAnimations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B853392A7F785DD194F0975C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB900A5FC9D890DB2FA5C27F /* libPods-LottieAnimations.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4F6598522305B4A00C5C5E4 = {
 			isa = PBXGroup;
 			children = (
 				C4F6599022305B4A00C5C5E4 /* LottieAnimations */,
 				C4F6598F22305B4A00C5C5E4 /* Products */,
+				28A6572F8B0E59A9716E8EAF /* Pods */,
+				B853392A7F785DD194F0975C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F659A022305B4D00C5C5E4 /* Build configuration list for PBXNativeTarget "LottieAnimations" */;
 			buildPhases = (
+				D140BB4F7780F0E329F23D71 /* [CP] Check Pods Manifest.lock */,
 				C4F6598A22305B4A00C5C5E4 /* Sources */,
 				C4F6598B22305B4A00C5C5E4 /* Frameworks */,
 				C4F6598C22305B4A00C5C5E4 /* Resources */,
@@ -129,6 +154,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D140BB4F7780F0E329F23D71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4F6598A22305B4A00C5C5E4 /* Sources */ = {
@@ -280,6 +330,7 @@
 		};
 		C4F659A122305B4D00C5C5E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF6AC8617070FE0B88FD928 /* Pods-LottieAnimations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +349,7 @@
 		};
 		C4F659A222305B4D00C5C5E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8789858217C00CA0AD9FFD98 /* Pods-LottieAnimations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
