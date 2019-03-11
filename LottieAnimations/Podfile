@@ -1,3 +1,5 @@
 target 'LottieAnimations' do
+  use_frameworks!
+  
   pod 'lottie-ios'
 end
