@@ -75,8 +75,8 @@ class ViewController: UIViewController {
     }
 
     @objc private func animateOnce() {
-        loadingAnimation.play { (finished) in
-
+        loadingAnimation.play { _ in
+            print("Animation completed!")
         }
     }
 
